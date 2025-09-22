@@ -94,9 +94,6 @@ Building this project was a great opportunity to deepen my skills in several key
 - **Backend:** The Express API is deployed on a cloud platform (e.g., Railway, Vercel) with PostgreSQL from Neon and Redis.
 - **Mobile App:** The React Native app is deployed via Expo, with Clerk handling authentication.
 
-> **Live Demos:**
-> * **Backend URL:** [Your live API link here]
-> * **Mobile App:** [Link to Expo demo or app store link]
 
 ### 📌 Future Improvements
 - **📊 Data Visualization:** Add charts to visualize income vs. expense trends over time.
