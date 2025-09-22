@@ -1,0 +1,1 @@
+export const API_URL = "https://reactnativewallet-ykcq.onrender.com/api";

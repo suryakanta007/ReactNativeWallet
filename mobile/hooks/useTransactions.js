@@ -2,9 +2,10 @@
 
 import { useCallback, useState } from "react";
 import { Alert } from "react-native";
+import { API_URL } from "../constants/api";
 // import { API_URL } from "../constants/api";
 
-const API_URL = "https://reactnativewallet-ykcq.onrender.com/api";
+
 // const API_URL = "http://localhost:5000/api";
 
 export const useTransactions = (userId) => {

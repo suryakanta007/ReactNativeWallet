@@ -13,7 +13,7 @@ import NoTransactionsFound from '../../components/NoTransactionsFound'
 
 export default function Page() {
   const { user } = useUser()
-  const roter = useRouter();
+  const router = useRouter();
   const [refreshing,setRefreshing] = useState(false);
 
   const { transactions, summary, isLoading, loadData, deleteTransaction } = useTransactions(user?.id);
