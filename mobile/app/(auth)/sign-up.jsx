@@ -73,7 +73,7 @@ export default function SignUpScreen() {
 
     if (pendingVerification) {
         return (
-            <view style={styles.verificationContainer}>
+            <View style={styles.verificationContainer}>
                 <Text style={styles.verificationTitle}>Verify your email</Text>
 
                 {error ? (
@@ -97,7 +97,7 @@ export default function SignUpScreen() {
                 <TouchableOpacity onPress={onVerifyPress} style={styles.button}>
                     <Text style={styles.buttonText}>Verify</Text>
                 </TouchableOpacity>
-            </view>
+            </View>
 
         )
     }
